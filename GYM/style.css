@@ -1,0 +1,325 @@
+.header
+{
+    position: relative;
+   
+}
+@media(max-width:767px){
+    .header
+    {
+        height: 100vh;
+    }
+    .header img{
+        height: 100%;
+    }
+}
+.header .navbar
+{
+    background-color: rgba(0,0,0,.5)!important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 142PX;
+   
+}
+.header .navbar ul 
+{
+    margin-left: 150px;
+     
+}
+.header .navbar ul li a
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: white!important;   
+}
+.header .navbar i
+{
+    color: white;
+    margin-left: 100px
+}
+.header .carousel ol li
+{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+/*    border: 2px solid #fff;*/
+    
+        
+}
+.header .carousel .carousel-item .carousel-caption i
+{
+    color: white;
+    background-color: #233EDE;
+    padding: 25px;
+    border-radius: 50%;
+}
+.header .carousel .carousel-item .carousel-caption h2
+{
+    font-size: 100px;
+    font-weight: bold;
+}
+.header .carousel .carousel-item .carousel-caption button
+{
+    background-color: #233EDE;
+    border: none;
+    padding: 20px 50px;
+    font-weight: bold;
+}
+.header .side
+{
+    width: 120px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+/*    text-align: center;*/
+    padding-top: 35px;
+}
+.header .side ul
+{
+  list-style: none;
+}
+.header .side ul i
+{
+   
+     color: white;
+    background-color: #081624;
+    padding: 19px;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+@media(max-width:985px)
+{
+    .side{
+        display:none;
+    }
+}
+@media(max-width:985px){
+.header .carousel .carousel-item .carousel-caption h2   
+{
+    font-size: 50px;
+
+}
+}
+
+/*
+.bd-example{
+    height:700px
+}
+*/
+.bd-example img{
+   height: 90vh!important;
+}
+.contact
+{
+    padding: 100px 0;
+}
+.contact .row .layer
+{
+  position: relative;  
+}
+.contact .row .layer .logo
+{
+   position: absolute;
+    left: 40%;
+    top: 47%;
+    background-color: #233EDE;
+    padding: 25px;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    
+}
+.contact .row .layer .text
+{
+    margin-top: 60px
+}
+.contact .row .layer .text h2
+{
+    font-size: 18px;
+    color: #353535;
+    font-weight: bold;
+}
+.contact .row .layer .text h2
+{
+    font-size: 15px;
+    color: #7B7B7B;
+}
+@media(min-width:767px) and (max-width:986px)
+{
+   .contact .row .layer .logo
+    {
+        top: 30%;
+        left: 30%
+    }
+}
+@media(max-width:767px)
+{
+  .contact .row .layer .logo
+    {
+        left: 42%;
+        top: 57%
+    }
+    .contact .layer img
+    {
+        width: 100%;
+    }
+}
+.feature
+{
+    padding: 100px 0;
+    background-color: #121212;
+}
+.feature .text span
+{
+    color: #233EDE;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.feature .text h2
+{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+.feature .row .layer
+{
+    margin-top: 60px
+}
+.feature .row .layer h3
+{
+    color: white;
+/*    font-weight: bold;*/
+    font-size: 18px;
+}
+.feature .row .col-md-6
+{
+    margin-top: 40px;
+}
+.feature .row .layer p
+{
+    color: #7B7B7B;
+    margin-top: 20PX;
+}
+.feature .bttn
+{
+    margin-top: 30px;
+}
+.feature .bttn a
+{
+    padding: 20px 50px;
+    border-radius: 0!important;
+    background-color: #233EDE;
+    border: none;
+}
+.train
+{
+    background-image: url(img/trainer-bg.jpg);
+/*    height: 500px;*/
+}
+.train .row .left
+{
+    padding: 100px 0;
+}
+.train .left span
+{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: white;
+}
+.train .left h2
+{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+.train  a
+{
+   text-align: center;
+    margin-top: 100px;
+    padding: 20px 50px;
+    background-color: #121212;
+    border: none;
+    border-radius: 0;
+    font-weight: bold;
+}
+.train  a:hover
+{
+   background-color: #121212; 
+}
+
+@media(max-width:767px)
+{
+  .train .row .right
+    {
+        position: absolute;
+        left: 32%;
+       
+    }
+}
+@media(max-width:767px)
+{
+  .train .row .right a
+    {
+        margin-top: 0;
+    }
+}
+.train .layer1
+{
+    position: relative;
+}
+.train .layer1 .ico
+{
+    position: absolute;
+    top: 0;
+    
+}
+.train .layer1 .ico i
+{
+    padding: 37px 40px;
+    background-color: #233EDE;
+    color: white;
+}
+.train .layer1 .text
+{
+    text-align: center;
+    margin: 50px 0 100px 0;
+}
+.train .layer1 .text h5
+{
+    color: white;
+}
+.train .layer1 .text span
+{
+    color: white;
+    font-size: 15px;
+}
+.cards
+{
+    padding: 100px 0;
+}
+.cards .bord
+{
+    border: 2px solid #ddd;
+}
+.cards .bord .text
+{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.cards .bord .text span
+{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #212122;
+}
+.cards .bord ul
+{
+    list-style: none;
+}
+.cards .bord ul li
+{
+    padding: 20px 0;
+}
